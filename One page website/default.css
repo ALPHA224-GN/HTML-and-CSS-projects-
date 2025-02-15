@@ -1,0 +1,218 @@
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #b7b2b2;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c
+}
+
+
+
+.container
+{
+	margin: 0px auto;
+	width: 1200px;
+	
+}
+
+
+#header-wrapper
+{
+	background: #b7b2b2;
+}
+
+#header
+{
+	position: relative;
+	height: 200px;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+{
+	position: absolute;
+	top: 203px;
+	left: 3px;
+	width: 230px;
+	height: 172px;
+}
+
+#logo h1
+{
+	display: inline-block;
+	font-size: 2.5em;
+	/*text-transform: lowercase;*/
+	font-weight: 700;
+	color: #000;
+}
+
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+	position: absolute;
+	right: -186px;
+	top: 281px;
+	width: 1203px;
+	height: 25px;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span
+{
+	display: inline-block;
+	margin-left: 0.50em;
+	padding: 1em 1.5em;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: 0;
+	color: #ff000000;
+}
+
+
+
+#menu .current_page_item a
+{
+	background: #353058;
+	color: #FFF;
+}
+
+	
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+#wrapper
+{
+	background: #FFF;
+}
+
+#page
+{
+	overflow: hidden;
+	padding: 1em 0em;
+	border-bottom: 2px solid #E3E3E3;
+	text-align: center;
+}
+
+
+
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+	overflow: hidden;
+	padding: 2em 0em;
+	border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+        color: #000;
+	/*color: rgba(255,255,255,0.3);*/
+}
+
+
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+#featured-wrapper
+{
+	overflow: hidden;
+	padding:1em 0em;
+	background: #FFF;
+	text-align: center;
+}
+
+#featured
+{
+	overflow: hidden;
+}
+
+
+.column1,  .column2,  .column3,  .column4
+{
+	width: 282px;
+}
+
+.column1,  .column2
+{
+	float: left;
+	margin-right: 24px;
+}
+
+.column3
+{
+	float: left;
+}
+
+.column4
+{
+	float: right;
+}
+
+
+	#header-featured
+	{
+		height: 10em;
+		background-image: url(images/getfile.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+
+
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+
+#extra2
+{
+	margin-top: 5em;
+}

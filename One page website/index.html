@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>Home</title>
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="header-wrapper">
+<div id="header" class="container">
+  <div id="logo">
+			<h1><img src="images/201401090025525921.png" width="230" height="172" alt=""/></h1>
+  </div>
+  <div id="menu">
+    <ul>
+      <li class="current_page_item"><a href="index.html">Homepage</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Event.html">Event</a></li>
+      <li><a href="Programs.html">Programs</a></li>
+      <li><a href="Sponsors.html">Sponsors</a></li>
+      <li><a href="press.html">Press</a></li>
+      <li><a href="Donate.html">Donate</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
+<img src="images/getfile.jpg" width="1259" height="310" alt=""/></div>
+<div id="wrapper">
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>Welcome to our education website.</h2>
+			</div>
+			<p> <em><strong>Our charity is a non gouvernmental charity for the aim to help children all around the world.</strong></em></p>
+		
+		</div>
+	</div>
+	<img src="images/102264730-charity_1910x1000.jpg" width="1474" height="492" alt=""/>
+	<div id="featured-wrapper">
+	  <p><strong>EDUCATION IS THE MOST POWERFUL WEAPON WHICH YOU CAN USE TO CHANGE THE WORLD</strong><strong>.</strong>      </p>
+	  <p><strong>The aim of  this website is to help and provide children around the globe better. Children in poor countries face many barriers to accessing an education. Some are obvious – like not having a school to go to – while others are more subtle, like the teacher at the school not having had the training needed to effectively help children to learn.</strong></p>
+      <p><strong>Increasing access to education can improve the overall <A href="https://www.rwjf.org/en/library/research/2012/12/why-does-education-matter-so-much-to-health-.html" target="_blank" rel="noopener noreferrer">health and longevity of a society</A>, <A href="http://siteresources.worldbank.org/EDUCATION/Resources/278200-1099079877269/547664-1099079934475/Edu_Quality_Economic_Growth.pdf" target="_blank" rel="noopener noreferrer">grow economies</A>, and even <A href="https://www.carbonbrief.org/education-is-top-priority-for-climate-change-adaptation-study-shows" target="_blank" rel="noopener noreferrer">combat climate change</A>. Yet in many developing countries, children&rsquo;s access to education can be limited by numerous factors. </strong></p>
+      <p><strong>The Global Partnership for Education (GPE), a global collaboration between more than 60 developing countries, is on the front lines of working to increase access to education in these places. On Feb. 1, 2018, GPE leaders will convene in Dakar, Senegal for the third GPE replenishment, aimed at raising $3.1 billion in new investment for the fund. </strong></p>
+      <p><strong>This money will go toward providing critical tools for students and teachers in developing countries around the world, often in states that are fragile and crisis-affected. </strong></p>
+<div id="featured" class="container">
+		<div class="column1">
+			  <div class="title"></div>
+				<p><strong><a href="http://www.charitychoice.co.uk/charities"> charitychoice</a></strong></p>
+			</div>
+			<div class="column2">
+			  <div class="title"></div>
+				<p><strong><a href="https://www.gov.uk/government/news/syria-refugees-what-you-can-do-to-help--2 "> Help Shyria refugees</a></strong></p>
+			</div>
+			<div class="column3">
+			  <div class="title">
+			  
+				</div>
+				
+			</div>
+		</div>
+		<!-- This is for space between footer and 4 columns/boxes -->
+        <div id="extra2" class="container"></div>	
+
+<script type="text/javascript">
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox"></div>
+
+    </div>
+</div>
+<div id="copyright" class="container">
+  <p>Copyright (c) 2017@ James Hubbard.com. All rights reserved. </p>
+</div>
+</body>
+</html>

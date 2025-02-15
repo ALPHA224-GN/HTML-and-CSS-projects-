@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>About-Home</title>
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="header-wrapper">
+<div id="header" class="container">
+  <div id="logo">
+			<h1><img src="images/201401090025525921.png" width="230" height="172" alt=""/></h1>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="Index.html">Homepage</a></li>
+      <li class="current_page_item"><a href="About.html">About</a></li>
+      <li><a href="Event.html">Event</a></li>
+      <li><a href="Programs.html">Programs</a></li>
+      <li><a href="Sponsors.html">Sponsors</a></li>
+      <li><a href="press.html">Press</a></li>
+      <li><a href="Donate.html">Donate</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
+<img src="images/getfile.jpg" width="1259" height="307" alt=""/></div>
+<div id="wrapper">
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>Welcome to our education website.</h2>
+			</div>
+			<p> <em><strong>Our charity is a non gouvernmental charity for the aim to help children all around the world.</strong></em></p>
+          
+		
+	  </div>
+	</div>
+	<img src="images/102264730-charity_1910x1000.jpg" width="1474" height="438" alt=""/>
+	<div id="featured-wrapper">
+	  <p><strong>Coventry Charity website is a non governmental charity for the aim to help children all aroud the world by providind them necessary materials, school uniform and give free and clean water.</strong></p>
+	  <p><strong> Our charity is based in Coventry but also has many links around the glob such as Romania, Somalia, Bangladesh and Mexico. </strong></p>
+		<div id="featured" class="container">
+			<div class="column1">
+			  <div class="title">
+			    <h2></h2>
+				</div>
+				<p></p>
+			</div>
+			<div class="column2">
+			  <div class="title">
+              <iframe width="420" height="345" src="https://youtu.be/Glny4jSciVI">
+</iframe>
+
+				</div>
+				<p>. </p>
+			</div>
+			<div class="column3">
+			  <div class="title">
+			    <h2></h2>
+				</div>
+				<p></p>
+			</div>
+			<div class="column4">
+			  <div class="title">
+			    <h2></h2>
+				</div>
+				<p></p>
+			</div>
+		</div>
+		<!-- This is for space between footer and 4 columns/boxes -->
+        <div id="extra2" class="container"></div>	
+
+<script type="text/javascript">
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox"></div>
+
+	</div>
+</div>
+<div id="copyright" class="container">
+  <p>Copyright (c) 2025@ Alphabarry.com. All rights reserved. </p>
+</div>
+</body>
+</html>
